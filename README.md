@@ -27,7 +27,7 @@ It is our hope that through the app, many shall get inspiration and guidance on 
 
 ## Contribution
 
-Contribution to this project is limited to GADS Health-team 16 members. After clonining the repo, create a different brank to develop in, you must create pull request to that specific branch to get it merged to main.
+Contribution to this project is limited to GADS Health-team 16 [members](CONTRIBUTING.md). After clonining the repo, create a different brank to develop in, you must create pull request to that specific branch to get it merged to main.
 
 ## Support
 
