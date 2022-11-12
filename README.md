@@ -25,6 +25,10 @@ It is our hope that through the app, many shall get inspiration and guidance on 
 
 ## Preview
 
+  Welcome                |    Register        | Login
+:-------------------------:|:-------------------------:|:----------------------
+<img src="screenshots/login_page.jpeg" height="500em" />|<img src="screenshots/registration_page.jpeg" height="500em" />|<img src="screenshots/login_page.jpeg" height="500em" />
+
 ## Contribution
 
 Contribution to this project is limited to GADS Health-team 16 [members](CONTRIBUTING.md). After clonining the repo, create a different branch to develop in, you must create pull request to that specific branch to get it merged to main.
