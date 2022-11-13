@@ -8,6 +8,6 @@
 1. Innocent Kagina
 1. Mohamed Jedata
 1. Sean Riley Hawkins
-1. Ajibayo Temitope John
+
 
 
