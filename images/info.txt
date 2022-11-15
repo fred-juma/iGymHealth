@@ -3,5 +3,6 @@
 Software : Figma
 Text Font : Cairo
 Main Colors: #E77E5A , #2F2E41
+Icons : Fontawsome
 ******************************
 
