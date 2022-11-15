@@ -27,7 +27,7 @@ It is our hope that through the app, many shall get inspiration and guidance on 
 
   Welcome                |    Register        | Login
 :-------------------------:|:-------------------------:|:----------------------
-<img src="ui/welcome-page.png" height="400em" />|<img src="ui/register-page.png" height="400em" />|<img src="ui/login-page.png" height="400em" />
+<img src="images/preview/welcome-page.png" height="400em" />|<img src="images/preview/register-page.png" height="400em" />|<img src="images/preview/login-page.png" height="400em" />
 
 ## Contribution
 
