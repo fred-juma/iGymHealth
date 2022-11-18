@@ -8,14 +8,16 @@
 
     <ImageView
         android:id="@+id/SplashScreenImage"
-        android:layout_width="300dp"
-        android:layout_height="200dp"
-        android:src="@drawable/ic_notifications_black_24dp"
+        android:layout_width="420dp"
+        android:layout_height="317dp"
+        android:contentDescription="Splash Screen"
+        android:src="@drawable/logo_splash"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:contentDescription="Splash Screen" />
+        app:layout_constraintVertical_bias="0.541" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

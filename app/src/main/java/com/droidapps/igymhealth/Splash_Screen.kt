@@ -16,7 +16,7 @@ class Splash_Screen : ComponentActivity() {
         setContentView(R.layout.activity_splash_screen)
 
         val bgImage:ImageView = findViewById(R.id.SplashScreenImage)
-        val sideAnimation = AnimationUtils.loadAnimation(this, R.anim.side_slide)
+        val sideAnimation = AnimationUtils.loadAnimation(this, R.anim.slide_in_right)
         bgImage.startAnimation(sideAnimation)
 
         Handler().postDelayed({
