@@ -1,9 +1,9 @@
 package com.droidapps.igymhealth.data.cards
 
 var cardList = mutableListOf<Cards>()
-var ID_EXTRA = "Sample ID"
+var ROUTE_ID = "Route ID"
 
-class Cards (
+class Cards(
     var icon: Int,
     var workout: String,
     var type: String,

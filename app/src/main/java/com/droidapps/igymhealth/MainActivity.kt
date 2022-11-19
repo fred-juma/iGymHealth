@@ -1,7 +1,6 @@
 package com.droidapps.igymhealth
 
 import android.os.Bundle
-import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
@@ -10,6 +9,7 @@ import androidx.navigation.ui.setupWithNavController
 import com.droidapps.igymhealth.data.cards.Cards
 import com.droidapps.igymhealth.data.cards.cardList
 import com.droidapps.igymhealth.databinding.ActivityMainBinding
+import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class MainActivity : AppCompatActivity() {
 
@@ -41,14 +41,14 @@ class MainActivity : AppCompatActivity() {
         val card1 = Cards(
             R.drawable.logo_splash,
             "Yoga",
-            "Mental"
+            "Mental",
         )
         cardList.add(card1)
 
         val card2 = Cards(
             R.drawable.logo_splash,
             "Weights",
-            "Physical"
+            "Physical",
         )
         cardList.add(card2)
 
@@ -56,7 +56,7 @@ class MainActivity : AppCompatActivity() {
         val card3 = Cards(
             R.drawable.logo_splash,
             "Meditation",
-            "Mental"
+            "Mental",
         )
         cardList.add(card3)
 
@@ -64,7 +64,7 @@ class MainActivity : AppCompatActivity() {
         val card4 = Cards(
             R.drawable.logo_splash,
             "Diet",
-            "Physical"
+            "Physical",
         )
         cardList.add(card4)
 
@@ -72,7 +72,7 @@ class MainActivity : AppCompatActivity() {
         val card5 = Cards(
             R.drawable.logo_splash,
             "Mental Health Tips",
-            "Mental"
+            "Mental",
         )
         cardList.add(card5)
 
@@ -80,7 +80,7 @@ class MainActivity : AppCompatActivity() {
         val card6 = Cards(
             R.drawable.logo_splash,
             "Physical Health Tips",
-            "Physical"
+            "Physical",
         )
         cardList.add(card6)
 

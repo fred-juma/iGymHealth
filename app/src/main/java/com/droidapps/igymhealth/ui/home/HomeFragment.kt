@@ -12,7 +12,9 @@ import androidx.recyclerview.widget.GridLayoutManager
 import com.droidapps.igymhealth.R
 import com.droidapps.igymhealth.data.cards.*
 import com.droidapps.igymhealth.databinding.FragmentHomeBinding
-import com.droidapps.igymhealth.ui.dashboard.DashboardFragment
+import com.droidapps.igymhealth.ui.home.diet.DietActivity
+import com.droidapps.igymhealth.ui.home.posts.PostsActivity
+import com.droidapps.igymhealth.ui.home.workout.WorkoutActivity
 
 class HomeFragment : Fragment(), CardClickListener {
 
@@ -23,12 +25,22 @@ class HomeFragment : Fragment(), CardClickListener {
     private val binding get() = _binding!!
 
     override fun onClick(cards: Cards) {
-        val intent = Intent(context, DashboardFragment::class.java)
-//        intent.putExtra(ID_EXTRA, cards.id)
-//        startActivity(intent)
-        //TODO: direct the cards to the respective places, using the id
-       findNavController().navigate(R.id.navigation_dashboard)
-
+        //HACK: Temporary fix for navigation and intents
+        if(cards.workout == "Yoga" || cards.workout == "Weights" || cards.workout == "Meditation"){
+            val intent = Intent(context, WorkoutActivity::class.java)
+            intent.putExtra(ROUTE_ID, cards.id)
+            startActivity(intent)
+        }
+        if(cards.workout == "Diet"){
+            val intent = Intent(context, DietActivity::class.java)
+            intent.putExtra(ROUTE_ID, cards.id)
+            startActivity(intent)
+        }
+        if(cards.workout == "Physical Health Tips" || cards.workout == "Mental Health Tips"){
+            val intent = Intent(context, PostsActivity::class.java)
+            intent.putExtra(ROUTE_ID, cards.id)
+            startActivity(intent)
+        }
     }
 
     override fun onCreateView(
@@ -63,6 +75,5 @@ class HomeFragment : Fragment(), CardClickListener {
         super.onDestroyView()
         _binding = null
     }
-
 
 }
