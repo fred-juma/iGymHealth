@@ -6,7 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.viewpager2.widget.ViewPager2
 import com.droidapps.igymhealth.R
 import com.droidapps.igymhealth.databinding.ActivityWorkoutBinding
-import com.droidapps.igymhealth.ui.home.workout.ui.main.WorkoutPageAdapter
+import com.droidapps.igymhealth.ui.home.workout.ui.WorkoutPageAdapter
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.tabs.TabLayout

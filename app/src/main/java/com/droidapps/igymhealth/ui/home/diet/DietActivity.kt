@@ -35,7 +35,7 @@ class DietActivity : AppCompatActivity() {
                 1 -> { "Favorites" }
                 else -> { throw Resources.NotFoundException("Position Not Found")}
             }
-        }
+        }.attach()
 
 
         val fab: FloatingActionButton = binding.fab

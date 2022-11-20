@@ -1,4 +1,4 @@
-package com.droidapps.igymhealth.ui.home.workout.ui.main
+package com.droidapps.igymhealth.ui.home.workout.ui
 
 import android.content.res.Resources
 import androidx.fragment.app.Fragment

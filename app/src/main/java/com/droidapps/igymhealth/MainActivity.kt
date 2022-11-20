@@ -37,54 +37,41 @@ class MainActivity : AppCompatActivity() {
     }
     private fun populateCards()
     {
-        //TODO: Finish The List
+
         val card1 = Cards(
-            R.drawable.logo_splash,
-            "Yoga",
-            "Mental",
+            R.drawable.lift_weights,
+            "Weights",
+            "Physical",
         )
         cardList.add(card1)
 
         val card2 = Cards(
-            R.drawable.logo_splash,
-            "Weights",
-            "Physical",
-        )
-        cardList.add(card2)
-
-
-        val card3 = Cards(
-            R.drawable.logo_splash,
+            R.drawable.meditation,
             "Meditation",
             "Mental",
         )
-        cardList.add(card3)
+        cardList.add(card2)
 
-
-        val card4 = Cards(
-            R.drawable.logo_splash,
+        val card3 = Cards(
+            R.drawable.breakfast,
             "Diet",
             "Physical",
         )
-        cardList.add(card4)
+        cardList.add(card3)
 
-
-        val card5 = Cards(
-            R.drawable.logo_splash,
+        val card4 = Cards(
+            R.drawable.meditation,
             "Mental Health Tips",
             "Mental",
         )
-        cardList.add(card5)
+        cardList.add(card4)
 
-
-        val card6 = Cards(
-            R.drawable.logo_splash,
+        val card5 = Cards(
+            R.drawable.lift_weights,
             "Physical Health Tips",
             "Physical",
         )
-        cardList.add(card6)
+        cardList.add(card5)
 
     }
-
-
 }

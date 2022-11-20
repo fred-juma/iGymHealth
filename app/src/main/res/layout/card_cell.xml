@@ -21,36 +21,34 @@
 
             <ImageView
                 android:id="@+id/cover"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/logo_splash"
+                android:layout_width="match_parent"
+                android:layout_height="189dp"
                 android:adjustViewBounds="true"
                 android:contentDescription="Cover"
-                />
+                android:cropToPadding="false"
+                android:src="@drawable/logo_splash" />
 
             <TextView
                 android:id="@+id/workout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
+                android:lines="2"
                 android:text="Yoga"
                 android:textColor="@color/black"
                 android:textSize="20sp"
-                android:lines="2"
-                android:textStyle="bold"
-                />
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/type"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
+                android:lines="2"
                 android:text="Mental"
                 android:textColor="@color/black"
-                android:textSize="10sp"
-                android:lines="2"
-                android:textStyle="bold"
-                />
+                android:textSize="12sp"
+                android:textStyle="bold" />
         </LinearLayout >
 
     </androidx.cardview.widget.CardView>
