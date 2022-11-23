@@ -22,8 +22,8 @@ It is our hope that through the app, many shall get inspiration and guidance on 
 
 ## Read The Docs
 
-[Navigation](docs/navigation.md)
-[Design](docs/main.md)
++ [Navigation](docs/navigation.md)
++ [Design](docs/main.md)
 
 ## How to install
 
