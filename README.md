@@ -33,6 +33,11 @@ It is our hope that through the app, many shall get inspiration and guidance on 
 :-------------------------:|:-------------------------:|:----------------------
 <img src="images/preview/welcome-page.png" height="400em" />|<img src="images/preview/register-page.png" height="400em" />|<img src="images/preview/login-page.png" height="400em" />
 
+
+  Home Screen               |    Profile Screen        | Splash Screen
+:-------------------------:|:-------------------------:|:----------------------
+<img src="images/preview/home-screen.png" height="400em" />|<img src="images/preview/profile-screen.png" height="400em" />|<img src="images/preview/splash-screen.png" height="400em" />
+
 ## Contribution
 
 Contribution to this project is limited to GADS Health-team 16 [members](CONTRIBUTING.md). After clonining the repo, create a different branch to develop in, you must create pull request to that specific branch to get it merged to main.
