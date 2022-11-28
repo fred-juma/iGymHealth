@@ -22,8 +22,8 @@ It is our hope that through the app, many shall get inspiration and guidance on 
 
 ## Read The Docs
 
-[Navigation](docs/navigation.md)
-[Design](docs/main.md)
++ [Navigation](docs/navigation.md)
++ [Design](docs/main.md)
 
 ## How to install
 
@@ -32,6 +32,11 @@ It is our hope that through the app, many shall get inspiration and guidance on 
   Welcome                |    Register        | Login
 :-------------------------:|:-------------------------:|:----------------------
 <img src="images/preview/welcome-page.png" height="400em" />|<img src="images/preview/register-page.png" height="400em" />|<img src="images/preview/login-page.png" height="400em" />
+
+
+  Home Screen               |    Profile Screen        | Splash Screen
+:-------------------------:|:-------------------------:|:----------------------
+<img src="images/preview/home-screen.png" height="400em" />|<img src="images/preview/profile-screen.png" height="400em" />|<img src="images/preview/splash-screen.png" height="400em" />
 
 ## Contribution
 
