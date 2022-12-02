@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <group>
+            <item android:id="@+id/navHome"
+                android:icon="@drawable/ic_home"
+                android:title="@string/Home" />
+            <item android:id="@+id/navExercises"
+                android:icon="@drawable/ic_baseline_fitness_center_24"
+                android:title="@string/Exercises" />
+            <item android:id="@+id/navMental"
+                android:icon="@drawable/meditation"
+                android:title="@string/Exercises" />
+            <item android:id="@+id/navDiets"
+                android:icon="@drawable/ic_baseline_food_bank_24"
+                android:title="@string/Diets" />
+            <item android:id="@+id/navLogout"
+                android:icon="@drawable/ic_log_out"
+                android:title="@string/Signout" />
+        </group>
+
+
+</menu>
