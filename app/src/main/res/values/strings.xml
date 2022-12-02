@@ -102,4 +102,18 @@
     <string name="title_activity_posts">PostsActivity</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login">LOGIN</string>
+    <string name="loginBtn">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirmPassword" />
+    <string name="registerBtn" />
+    <string name="confirm_password">Confirm Password</string>
+    <string name="new_account_sign_up">New Account, Sign Up !</string>
+    <string name="already_registered_sign_in">Already Registered , Sign In !</string>
+    <string name="register">Register</string>
+    <string name="Home" />
+    <string name="Exercises" />
+    <string name="Diets" />
+    <string name="Signout" />
 </resources>

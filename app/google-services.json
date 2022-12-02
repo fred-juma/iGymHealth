@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "765370177988",
+    "project_id": "igym-health",
+    "storage_bucket": "igym-health.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:765370177988:android:ff70c47cadaa22200eec91",
+        "android_client_info": {
+          "package_name": "com.droidapps.igymhealth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "765370177988-ivkof9o4fipn2mrr1ng4fdbtqn2gu6a5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCO7xrsCeor01TMKCbOyGyvoz7Ux_T5xJI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "765370177988-ivkof9o4fipn2mrr1ng4fdbtqn2gu6a5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

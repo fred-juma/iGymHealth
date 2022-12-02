@@ -1,13 +1,12 @@
 package com.droidapps.igymhealth
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.ImageView
-import androidx.activity.ComponentActivity
 import android.os.Handler
 import android.view.animation.AnimationUtils
-import java.util.jar.Manifest
+import android.widget.ImageView
+import androidx.activity.ComponentActivity
+import com.droidapps.igymhealth.activity.LoginActivity
 
 @Suppress("DEPRECATION")
 class Splash_Screen : ComponentActivity() {
@@ -20,7 +19,7 @@ class Splash_Screen : ComponentActivity() {
         bgImage.startAnimation(sideAnimation)
 
         Handler().postDelayed({
-            val intent = Intent(this, MainActivity::class.java)
+            val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
             finish()
         }, 4000) //Delay for 4secs
